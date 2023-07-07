@@ -1,0 +1,156 @@
+
+.portfolio{
+    display: block;
+    
+
+}
+.portfolio__firstJob{
+    display: flex;
+   position: relative;
+   top:60px;
+   height: 45em;
+   border-top-right-radius: 220px;
+   border-bottom-right-radius: 220px;
+  
+}
+.portfolio__secondJob{
+    display: flex;
+    position: relative;
+    top:80px;
+}
+.portfolio__threeJob{
+    display: flex;
+    position: relative;
+    top:180px;
+}
+
+.portfolio__firstJob__title{
+    color: rgb(21, 32, 41);
+    position: relative;
+    height: 20px;
+    left: 50px;
+    top: 300px;
+    font-family: 'Ram Sans Expanded', sans-serif;
+    background-color: rgba(45, 192, 192, 0);                                            
+    font-weight:600;
+    box-shadow: 0px 2px 4px 3px rgba(33, 87, 100, 0.507);
+}
+.portfolio__firstJob__Secondtitle{
+    color: rgb(21, 32, 41);
+    position: relative;
+    height: 20px;
+    left: 50px;
+    top: 300px;
+    font-family: 'Ram Sans Expanded', sans-serif;
+    background-color: rgba(45, 192, 192, 0);                                            
+    font-weight:600;
+    box-shadow: 0px 2px 4px 3px rgba(143, 31, 31, 0.507);
+}
+
+.portfolio__firstJob__Threetitle{
+    color: rgb(21, 32, 41);
+    position: relative;
+    height: 20px;
+    left: 50px;
+    top: 300px;
+    font-family: 'Ram Sans Expanded', sans-serif;
+    background-color: rgba(45, 192, 192, 0);                                            
+    font-weight:600;
+    box-shadow: 0px 2px 4px 3px rgba(143, 122, 31, 0.507);
+}
+.portfolio__fistJob_firstSlide-card{
+position: relative;
+top: 70px;
+left: 120px;
+ background-color: aliceblue;
+ height: 600px;
+ width: 400px;
+ box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+}
+.portfolio__fistJob_firstSlide-card img{
+ object-fit: cover;
+ width:100%;
+ height:100%;
+   
+    }
+.portfolio__firstJob_secondSlide-card{
+position: relative;
+z-index: -1;
+top: 30px;
+left: 70px;
+ background-color: aliceblue;
+ height: 600px;
+ width: 400px;
+ box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+}
+
+.portfolio__firstJob_secondSlide-card img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.portfolio__fistJob_threeSlide-card{
+    position: relative;
+    top: 90px;
+    left: 40px;
+     background-color: aliceblue;
+     height: 600px;
+     width: 400px;
+     box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+    }
+    .portfolio__fistJob_threeSlide-card img{
+  
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+       
+        }
+        .portfolio__firstJob_fourSlide-card{
+            position: relative;
+            z-index: -1;
+            top: 50px;
+            left: 0px;
+             background-color: aliceblue;
+             height: 600px;
+             width: 400px;
+             box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+             box-sizing: border-box;
+           
+            }
+            
+            .portfolio__firstJob_fourSlide-card img{
+                object-fit: cover;
+                width:100%;
+                height:100%;
+            }
+            .portfolio__fistJob_firstSlide-card-landing{
+            position: relative;
+            top: 70px;
+            left: 120px;
+             background-color: aliceblue;
+             height: 600px;
+             width: 400px;
+             box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+            }
+            .portfolio__fistJob_firstSlide-card-landing img{
+                object-fit: fill;
+                width:100%;
+                height:100%;
+                position: relative;
+                left: 0px;
+            }
+            .Separador{
+                background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
+                width: 100%;
+                height: 3px;
+                position: relative;
+                top: 80px;
+            }
+            .Separador-2{
+                background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
+                width: 100%;
+                height: 3px;
+                position: relative;
+                top: 190px;
+            }

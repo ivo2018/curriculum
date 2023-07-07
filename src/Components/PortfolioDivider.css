@@ -1,0 +1,23 @@
+.dividerAdminButton{
+    display: flex;
+    width: 6%;
+    padding: 40px 0px 0px 80px;
+ 
+
+}
+
+.dividerAdminButton img{
+    height: 35px;
+    width: 35px;
+}
+.dividerAdminButton button {
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.411);
+    border: 1px outset rgb(49, 38, 23);
+    border-radius: 4px;
+  }
+.dividerAdminButton button:focus {
+    background-color: rgba(11, 241, 184, 0.123);
+    border: 1px inset rgb(255, 255, 255);
+    border-radius: 4px;
+  }

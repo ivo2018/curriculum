@@ -1,0 +1,124 @@
+body {background-color:#ccc;}
+.card-presentation{
+    display: block;
+    height: 45em;
+    width: 60em;
+    margin: auto;
+    position: relative;
+    top: 2em;
+    background-color: rgb(255, 255, 255);
+}
+.card-presentation__image img{
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+.card-presentation__description{
+display: inline-block;
+position: relative;
+bottom: 300px;
+left:550px;
+
+
+    }
+.card-presentation__hello{
+    color:rgb(255, 255, 255);
+    background-color: rgb(170, 65, 51);
+    border-radius: 2px;
+    position: relative;
+    bottom: 60px;
+    font-family: 'Squarea Expanded Oblique', sans-serif;
+    font-family: 'Squarea', sans-serif;
+    font-size: 1.5em;
+   letter-spacing:0.1em;
+   padding: 0 4px;
+
+                                                
+                                                
+}
+.card-presentation__title{
+     color:rgba(22, 20, 20, 0.507);
+    font-size: 2em;
+    position: relative;
+    right:70px;
+    font-family: 'Neutra Text TF Light', sans-serif;
+                                                
+ 
+}
+.card-presentation__title span{
+    color:rgb(0, 0, 0);
+    position: relative;
+    left: 10px;
+}
+
+.card-presentation__description-text{
+display: block;
+width: 500px;
+color: rgb(39, 34, 34);
+font-family: 'TASA Explorer', sans-serif;
+                                                
+                                                
+
+}
+
+.card-presentation__description__info{
+    display:flex;
+    position: relative;
+    bottom: 250px;
+    left:560px;
+    padding-top: 18px;
+    font-family: 'Ikhsani Grotesk', sans-serif;
+    background-color: rgb(245, 255, 255);
+    width: 33%;
+    padding: 10px;
+                                                
+                                                
+                                                
+}
+
+.card-presentation__description__info-item{
+ 
+    color: black;
+    background-color: rgb(255, 254, 254);
+
+}
+.card-presentation__description__info-answer{
+ 
+    padding-left: 30px;
+    color:rgba(22, 20, 20, 0.507);
+    background-color: rgb(255, 254, 254);
+
+}
+.card-presentation__description__info-answer-age{
+    padding-left: 50px;
+    color:rgba(22, 20, 20, 0.507);
+    background-color: rgb(255, 254, 254);
+}
+.card-presentation__description__info-answer-email{
+    padding-left: 40px;
+    color:rgba(22, 20, 20, 0.507);
+    background-color: rgb(255, 254, 254);
+}
+.card-presentation__description__info-answer-phone{
+    padding-left: 35px;
+    color:rgba(22, 20, 20, 0.507);
+    background-color: rgb(255, 254, 254);
+}
+.jumbotron{
+    background-color: rgb(95, 46, 46);
+    height: 7em;
+    position: relative;
+    top: -10px;
+}
+.text-aboutme{
+    color: rgb(59, 54, 54);
+    position: relative;
+    top: 5px;
+    font-family: 'Geologica', sans-serif;
+                                                
+                                                
+
+}

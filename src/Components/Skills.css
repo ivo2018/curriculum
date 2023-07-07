@@ -1,0 +1,91 @@
+.div-skills{
+    position: relative;
+    background-color: rgba(240, 248, 255, 0.753);
+    width: 50%;
+    margin: auto;
+   top: 20px;
+   border-radius: 8px;
+
+}
+.div-skills div{
+   padding: 80;
+
+}
+.div-skills img{
+height: 100px;
+width: 100px;
+
+}
+
+.div-skills_mysql{
+ display: flex;
+}
+.div-skills_mysql img{
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 2px rgb(122, 114, 114);
+}
+.div-skills_react{
+    display: flex;
+   }
+   .div-skills_react img{
+       margin: auto;
+       padding-right: 400px;
+       border-radius: 4px;
+       border-radius: 20px;
+       box-shadow: 0px 0px 20px 10px rgba(47, 104, 35, 0.514);
+   
+   }
+
+   .div-skills_react3{
+    display: flex;
+   }
+   .div-skills_react3 img{
+       margin: auto;
+       position: relative;
+       bottom: 98px;
+       padding-left: 380px;
+       border-radius: 4px;
+       
+       
+
+       
+   }
+
+.div-skills__react{
+    display: flex;
+ 
+}
+.div-skills_react-child {
+   display: flex;
+   justify-content: space-around;
+   width: 22%;
+    
+   }
+.div-skills_react-child img{
+ height: 60px ;
+ width: 60px;
+ position: relative;
+ left: 23.5em;
+ bottom: 11em;
+ box-shadow: 0px 0px 1px 3px rgb(153, 247, 231);
+ border-radius: 8px;
+
+
+ 
+}
+.div-skills_minority{
+  display: flex;
+  justify-content:space-around;
+  padding: 5px;
+  
+}
+.div-skills_minority img{
+  
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 10px rgba(42, 35, 104, 0.514);
+  }
+  .midlevel{
+    position: relative;
+    top: 65px;
+  }

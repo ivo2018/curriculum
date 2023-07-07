@@ -1,0 +1,46 @@
+a{
+    color:rgb(233, 224, 224);
+}
+.NavBar__ul{
+display: flex;
+position: relative;
+top: 1em;
+justify-content: space-around;
+padding: 1em;
+padding-left: 40em;
+background-color: rgb(27, 27, 26);
+overflow: hidden;
+}
+.Navbar__ul-li{
+    text-decoration: none;
+    color: rgba(81, 212, 168, 0.24);
+
+}
+
+.Navbar__ul-li a{
+        text-decoration: none;
+     font-family: 'Clancy', sans-serif;  
+      font-weight:normal;          
+      float: left;
+     display: block;
+     text-align: center;
+     padding: 4px 6px;
+     text-decoration: none;
+     font-size: 17px;
+     border-bottom: 3px solid transparent;
+}
+.Navbar__ul-li a:hover{
+    border-bottom: 3px solid rgb(122, 0, 0);
+    transition: 0.5s;
+    color: rgba(0, 255, 255, 0.596);
+}
+
+.NavBar__ul img{
+position: relative;
+right:42em;
+
+height: 28px;
+width: 32px;
+background-color: rgb(255, 255, 255);
+
+}
