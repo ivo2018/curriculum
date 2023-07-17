@@ -10,26 +10,26 @@ const About = () => {
                     <img src={perfil} alt="" />
                   </div>
         <div class="card-presentation__description">         
-           <a href="" class="card-presentation__hello">Hello</a>
-           <a href="" class="card-presentation__title">I'm  <span>Ivo Ortiz</span></a> 
-           <a href="" class="card-presentation__description-text">Developer of software ande programer of videogames </a>
+           <a href="/#" class="card-presentation__hello">Hello</a>
+           <a href="/#" class="card-presentation__title">I'm  <span>Ivo Ortiz</span></a> 
+           <a href="/#" class="card-presentation__description-text">Developer of software ande programer of videogames </a>
           </div>
        
            <div class="card-presentation__description__info">
-           <a href="" class="card-presentation__description__info-item">Age </a>
-           <a href="" class="card-presentation__description__info-answer-age">24</a>
+           <a href="/#" class="card-presentation__description__info-item">Age </a>
+           <a href="/#" class="card-presentation__description__info-answer-age">24</a>
            </div>
            <div class="card-presentation__description__info">
-           <a href="" class="card-presentation__description__info-item">Addres  </a> 
-           <a href="" class= "card-presentation__description__info-answer">Pinamar</a>
+           <a href="/#" class="card-presentation__description__info-item">Addres  </a> 
+           <a href="/#" class= "card-presentation__description__info-answer">Pinamar</a>
            </div>
            <div class="card-presentation__description__info">
-           <a href="" class="card-presentation__description__info-item" >Email  </a> 
-           <a href="" class="card-presentation__description__info-answer-email" >ivo_argentina_07 <a href=""style={{color:"rgba(22, 20, 20, 0.507)"}} >@hotmail.com</a></a>
+           <a href="/#" class="card-presentation__description__info-item" >Email  </a> 
+           <a href="/#" class="card-presentation__description__info-answer-email" >ivo_argentina_07 <a href="/#"style={{color:"rgba(22, 20, 20, 0.507)"}} >@hotmail.com</a></a>
            </div>
            <div class="card-presentation__description__info">
-           <a href="" class="card-presentation__description__info-item">Phone  </a> 
-           <a href="" class= "card-presentation__description__info-answer-phone">2254539705</a>
+           <a href="/#" class="card-presentation__description__info-item">Phone  </a> 
+           <a href="/#" class= "card-presentation__description__info-answer-phone">2254539705</a>
         
            </div>
            <div class="jumbotron">

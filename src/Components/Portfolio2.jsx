@@ -30,7 +30,7 @@ const Portfolio2 = () => {
     
          <div class="portfolio2__firstJob">
                 <div class="portfolio2__firstJob-title">Zemaria Proyect Demo 
-                     <a href=""class="portfolio2__firstJob-description">
+                     <a href="/#"class="portfolio2__firstJob-description">
                           A 3d demo of action and technical espionage,
                           a Russian military invades a US power station.
                           It contains 3 levels on the entire map, 
@@ -74,7 +74,7 @@ const Portfolio2 = () => {
               
                    <div class="portfolio2__firstJob-3">
                 <div class="portfolio2__firstJob2-title">2D Photon Red Proyect
-                     <a href=""class="portfolio2__firstJob2-description">
+                     <a href="/#"class="portfolio2__firstJob2-description">
                         2d game for 2 people in the photon network, 
                           the players must fight until one dies,
                              along the way they will find elements that they can use in their favor</a>
@@ -113,7 +113,7 @@ const Portfolio2 = () => {
               
               <div class="portfolio2__firstJob-5">
            <div class="portfolio2__firstJob3-title">2D Photon Red Proyect  
-                <a href=""class="portfolio2__firstJob3-description">
+                <a href="/#"class="portfolio2__firstJob3-description">
                  
                   2d game for 4 people connected in the photon network, 
                     the players must work as a team to win by killing all the enemies, 

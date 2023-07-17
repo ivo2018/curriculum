@@ -19,7 +19,7 @@ const Portfolio = () => {
          
             <div class="portfolio__firstJob">
                 <div class="portfolio__firstJob__title">Darte Arte Proyect
-                <a href=""class="portfolio__firstJob-description">
+                <a href="/#"class="portfolio__firstJob-description">
                 Full stack Ecommerce page programmed with the React js framework,
                  the page has 2 users, 
                  the client and the administrator managed by jwt token,
@@ -43,7 +43,7 @@ const Portfolio = () => {
             <div class="Separador"></div>
             <div class="portfolio__secondJob">
                 <div class="portfolio__firstJob__Secondtitle">Landing Proyect
-                <a href=""class="portfolio__firstJob-description">
+                <a href="/#"class="portfolio__firstJob-description">
                 Anymo is a project that seeks to sell a 
                 subscription-based experience meeting the needs
                  of customers but for the customer to understand how it works,
@@ -72,7 +72,7 @@ const Portfolio = () => {
             <div class="Separador-2"></div>
             <div class="portfolio__threeJob">
             <div class="portfolio__firstJob__Threetitle">La Reina Proyect
-            <a href=""class="portfolio__firstJob-description"> La reina is an informative project for a well-known bakery
+            <a href="/#"class="portfolio__firstJob-description"> La reina is an informative project for a well-known bakery
  in pinamar with the intention of using colors, shadows and icons that are very characteristic
   of the place with its well-defined aesthetics.</a></div>
             
