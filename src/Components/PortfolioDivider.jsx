@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Portfolio from './Portfolio';
 import Portfolio2 from './Portfolio2';
 import "./PortfolioDivider.css"
@@ -8,10 +8,10 @@ import web from "../Images/webdeveloper.png"
 const PortfolioDivider = () => {
     const [select , setSelect] =useState("web");
     function selectFunction(select){
-        if(select =="web"){
+        if(select ==="web"){
             setSelect("web");
         }
-       if(select=="game"){
+       if(select==="game"){
         setSelect("game");
        }
         console.log("la division es de ",select);
