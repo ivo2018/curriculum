@@ -35,7 +35,7 @@ import {  useNavigate } from 'react-router-dom';
       <a href="/#"class="divider">_</a>
       <label>Message</label>
       <input type="text" name="message" />
-      <a href="/#"class="divider"></a>
+      <a href="/#"class="divider">-</a>
       <input  type="submit"value="Contact Us" />
       </div>
     </form>
