@@ -1,10 +1,11 @@
 .div-skills{
     position: relative;
-    background-color: rgba(240, 248, 255, 0.753);
+    background-color: rgba(255, 255, 255, 0.733);
     width: 50%;
     margin: auto;
-   top: 20px;
-   border-radius: 8px;
+    top: 20px;
+    border-radius: 8px;
+    border:2px ridge rgba(253, 255, 254, 0.336);
 
 }
 .div-skills div{

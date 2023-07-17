@@ -8,6 +8,7 @@ import Css from "../Images/Css.png"
 import Hmtl from "../Images/Html.png"
 import Github from "../Images/github.jpeg"
 import discord from "../Images/discord.jpg"
+import cSharp from "../Images/csharp.jpg"
 import "../Components/Skills.css"
 const Skills = () => {
     return (
@@ -29,8 +30,9 @@ const Skills = () => {
             <img src={Github} alt="" style={{position:"relative",bottom:"200px"}}/>
             <img src={discord} alt="" style={{position:"relative",bottom:"50px"}}/>
             <img src={unity} alt="" style={{position:"relative",bottom:"50px"}}/>
-            <img src={mql} alt="" style={{position:"relative",bottom:"200px"}}/>
-          
+            <img src={mql} alt="" style={{position:"relative",left:"180px",bottom:"200px"}}/>
+            <img src={cSharp} alt="" style={{position:"relative",right:"200px",bottom:"50px"}}/>
+
             </div>
          
        

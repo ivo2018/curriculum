@@ -34,6 +34,8 @@
     background-color: rgba(45, 192, 192, 0);                                            
     font-weight:600;
     box-shadow: 0px 2px 4px 3px rgba(33, 87, 100, 0.507);
+    box-shadow: 0px -6px 30px 10px rgba(33, 87, 100, 0.74);
+    width: 12%;
 }
 .portfolio__firstJob__Secondtitle{
     color: rgb(21, 32, 41);
@@ -44,7 +46,8 @@
     font-family: 'Ram Sans Expanded', sans-serif;
     background-color: rgba(45, 192, 192, 0);                                            
     font-weight:600;
-    box-shadow: 0px 2px 4px 3px rgba(143, 31, 31, 0.507);
+    box-shadow: 0px -6px 30px 10px rgba(175, 18, 18, 0.616);
+    width: 12%;
 }
 
 .portfolio__firstJob__Threetitle{
@@ -56,7 +59,15 @@
     font-family: 'Ram Sans Expanded', sans-serif;
     background-color: rgba(45, 192, 192, 0);                                            
     font-weight:600;
-    box-shadow: 0px 2px 4px 3px rgba(143, 122, 31, 0.507);
+    width: 12%;
+    box-shadow: 0px -6px 30px 10px rgba(143, 122, 31, 0.507);
+}
+.portfolio__firstJob-description{
+    display: block;
+    color: #000303;
+    background-color: rgba(98, 33, 100, 0.123);
+    position: relative;
+    top: 3px;
 }
 .portfolio__fistJob_firstSlide-card{
 position: relative;
@@ -68,7 +79,7 @@ left: 120px;
  box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
 }
 .portfolio__fistJob_firstSlide-card img{
- object-fit: cover;
+ object-fit:cover;
  width:100%;
  height:100%;
    
@@ -154,3 +165,324 @@ left: 70px;
                 position: relative;
                 top: 190px;
             }
+@media (max-width:960px){
+
+    .portfolio{
+width:100%;
+    }
+    .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
+        height: 20em;
+    }
+    .portfolio__firstJob{
+        width: 55em;
+        height: 26em;
+    }.portfolio__secondJob{
+        width: 55em;
+    }
+    .portfolio__threeJob{
+        width: 55em;
+    }
+    .portfolio__firstJob__title{
+     
+
+        position: relative;
+        left: 50px;
+        top: 100px;
+        width: 80%;
+
+    }
+    .portfolio__firstJob__Secondtitle{
+        position: relative;
+        left: 50px;
+        top: 100px;
+        width: 80%;
+    }
+    .portfolio__firstJob__Threetitle{
+        position: relative;
+        left: 50px;
+        top: 100px;
+        width: 80%;
+    }
+        }            
+        @media (max-width:800px){
+
+            .portfolio{
+        width: 100;
+            }
+            .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
+                height: 18em;
+          
+            }
+            .portfolio__firstJob{
+                width: 45em;
+                height: 26em;
+            }.portfolio__secondJob{
+                width: 45em;
+            }
+            .portfolio__threeJob{
+                width: 45em;
+            }
+            .portfolio__firstJob__title{
+             
+        
+                position: relative;
+                left: 50px;
+                top: 50px;
+                width: 80%;
+        
+            }
+            .portfolio__firstJob__Secondtitle{
+                position: relative;
+                left: 50px;
+                top: 50px;
+                width: 80%;
+            }
+            .portfolio__firstJob__Threetitle{
+                position: relative;
+                left: 50px;
+                top: 100px;
+                width: 80%;
+            }
+                }            
+  @media (max-width:728px){
+
+            .portfolio{
+        width: 100%;
+            }
+            .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
+                height: 18em;
+          
+            }
+            .portfolio__firstJob{
+                width: 42em;
+                height: 26em;
+            }.portfolio__secondJob{
+                width: 42em;
+                height: 26em;
+            }
+            .portfolio__threeJob{
+                width: 42em;
+            }
+           
+            .portfolio__firstJob__title{     
+                position: relative;
+                left: 50px;
+                top: 50px;
+                width: 80%;
+        
+            }
+            .portfolio__firstJob__Secondtitle{
+                position: relative;
+                left: 50px;
+                top: 50px;
+                width: 80%;
+            }
+            .portfolio__firstJob__Threetitle{
+                position: relative;
+                left: 50px;
+                top: 100px;
+                width: 80%;
+            }
+                }                           
+
+   @media (max-width:680px){
+
+            .portfolio{
+        width: 100%;
+        height: 100%;
+            }
+            .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
+                height: 25em;
+          
+            }
+            .portfolio__firstJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+            }
+            .portfolio__secondJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+                top: 20em;
+            }
+            .portfolio__threeJob{
+                display: inline;
+                width: 42em;
+                top: 35em;
+            }
+            .portfolio__fistJob_firstSlide-card{
+            position: relative;
+            top: 70px;
+            left: 120px;
+      
+            }
+            .portfolio__firstJob_secondSlide-card{
+                position: relative;
+                top: 80px;
+                left: 120px;
+             }
+
+             .portfolio__fistJob_threeSlide-card{
+                position: relative;
+                top: 90px;
+                left: 120px;
+             }
+             .portfolio__firstJob_fourSlide-card{
+                position: relative;
+                top: 100px;
+                left: 120px;
+             }
+          
+           
+            .portfolio__firstJob__title{     
+                position: relative;
+                left: 50px;
+                top: -30px;
+                width: 80%;
+        
+            }
+            .portfolio__firstJob__Secondtitle{
+                    position: relative;
+                    left: 50px;
+                    top: -60px;
+                width: 80%;
+            }
+            .portfolio__firstJob__Threetitle{
+                position: relative;
+                left: 50px;
+                top: -40px;
+                width: 80%;
+            }
+            .Separador{
+               
+                position: relative;
+                top: 200px !important;
+            }
+            .Separador-2{
+               
+                position: relative;
+                top: 480px !important;
+            }
+                }                   
+ @media (max-width:430px){
+
+    
+            .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
+                height: 25em;
+          
+            }
+            .portfolio__firstJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+                left:0px;
+            }
+            .portfolio__secondJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+                top: 20em;
+            }
+            .portfolio__threeJob{
+                display: inline;
+                width: 42em;
+                top: 35em;
+            }
+            .portfolio__fistJob_firstSlide-card{
+            position: relative;
+            top: 135px;
+            left: 15px;
+      
+            }
+            .portfolio__firstJob_secondSlide-card{
+                position: relative;
+                top: 140px;
+                left: 15px;
+             }
+
+             .portfolio__fistJob_threeSlide-card{
+                position: relative;
+                top: 145px;
+                left: 15px;
+             }
+             .portfolio__firstJob_fourSlide-card{
+                position: relative;
+                top: 150px;
+                left: 15px;
+             }
+          
+           
+            .portfolio__firstJob__title{     
+                position: relative;
+                left: 50px;
+                top: -30px;
+                width: 80%;
+        
+            }
+            .portfolio__firstJob__Secondtitle{
+                    position: relative;
+                    left: 50px;
+                    top: -80px;
+                width: 80%;
+            }
+            .portfolio__firstJob__Threetitle{
+                position: relative;
+                left: 50px;
+                top: -40px;
+                width: 80%;
+            }
+            .Separador{
+               
+                position: relative;
+                top: 200px !important;
+            }
+            .Separador-2{
+               
+                position: relative;
+                top: 480px !important;
+            }
+                }         
+  @media (max-width:380px){    
+    .portfolio__fistJob_firstSlide-card{
+        position: relative;
+        top: 150px;
+        left: 0px;
+  
+        }
+        .portfolio__firstJob_secondSlide-card{
+            position: relative;
+            top: 155px;
+            left: 0px;
+         }
+
+         .portfolio__fistJob_threeSlide-card{
+            position: relative;
+            top: 160px;
+            left: 0px;
+         }
+         .portfolio__firstJob_fourSlide-card{
+            position: relative;
+            top: 165px;
+            left: 0px;
+         }
+         .portfolio__firstJob__title{     
+            position: relative;
+            left: 30px;
+            top: -30px;
+            width: 80%;
+    
+        }
+        .portfolio__firstJob__Secondtitle{
+                position: relative;
+                left: 30px;
+                top: -80px;
+            width: 80%;
+        }
+        .portfolio__firstJob__Threetitle{
+            position: relative;
+            left: 30px;
+            top: -40px;
+            width: 80%;
+        }
+       }                               

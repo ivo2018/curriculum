@@ -16,7 +16,7 @@ const NavBar = () => {
                 <a href="/portfolio">PORTFOLIO</a>
                 </li>
                 <li  class="Navbar__ul-li">
-                <a href="">CONTACT</a>
+                <a href="/contactus">CONTACT</a>
                 </li>
             </ul>
         </div>

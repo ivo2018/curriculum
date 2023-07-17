@@ -1,81 +1,129 @@
 
 .portfolio2{
     display: block;
-    
-
+    position: relative;
+    top: 80px;
 }
 .portfolio2__firstJob{
     display: flex;
    position: relative;
    bottom:20px;
-   height: 45em;
-   border-top-right-radius: 220px;
-   border-bottom-right-radius: 220px;
+   height: 48em;
    justify-content: space-around;
-   width: 80%;
-   left: 150px;
-  
+   width: 85%;
+   left: 120px;
 }
-.portfolio2__firstJob2{
-    display: flex;
-   position: relative;
-   bottom:330px;
-   height: 45em;
-   border-top-right-radius: 220px;
-   border-bottom-right-radius: 220px;
-   justify-content: space-around;
-   width: 80%;
-   left: 330px;
-  
-}
-.portfolio2__secondJob{
-    display: flex;
-   position: relative;
-   bottom:330px;
-   height: 45em;
-   border-top-right-radius: 220px;
-   border-bottom-right-radius: 220px;
-   justify-content: space-around;
-   width: 100%;
-   left: 0px;
-}
-
-.portfolio2__secondJob2{
-    display: flex;
-   position: relative;
-   bottom:650px;
-   height: 45em;
-   border-top-right-radius: 220px;
-   border-bottom-right-radius: 220px;
-   justify-content: space-around;
-   width: 80%;
-   left: 330px;
-}
-.portfolio2__threeJob{
+.portfolio2__firstJob-2{   
     display: flex;
     position: relative;
-    top:180px;
-}
+    bottom:330px;
+    height: 48em;
 
-.portfolio2__firstJob__title{
+    justify-content: space-around;
+    width: 85%;
+    left: 250px;  
+                    }
+  .portfolio2__firstJob-3{
+ display: flex;
+ position: relative;
+ bottom:350px;
+  height: 48em;
+   justify-content: space-around;
+   width: 85%;
+   left: 140px;
+             }
+ .portfolio2__firstJob-4{   
+   display: flex;
+  position: relative;
+ bottom:660px;
+ height: 48em;
+ justify-content: space-around;
+  width: 80%;
+  left: 290px;  
+               }
+.portfolio2__firstJob-5{
+  display: flex;
+  position: relative;
+  bottom:680px;
+  height: 48em;
+  justify-content: space-around;
+  width: 80%;
+  left: 180px;
+   }
+.portfolio2__firstJob-6{   
+ display: flex;
+ position: relative;
+ bottom:990px;
+ height: 45em;
+ justify-content: space-around;
+ width: 80%;
+ left: 290px;  
+                     }
+ .portfolio2__firstJob-2 div ,.portfolio2__firstJob-4 div,.portfolio2__firstJob-6 div{
+        transform: rotate(0deg);
+                          }
+.portfolio2__firstJob img ,.portfolio2__firstJob-2 img ,.portfolio2__firstJob-3 img ,.portfolio2__firstJob-4 img ,.portfolio2__firstJob-5 img ,.portfolio2__firstJob-6 img{
+        object-fit:fill;
+        box-sizing:content-box;
+        width:100%;
+        height:100%; 
+}
+.portfolio2__firstJob-title{
     color: rgb(35, 48, 58);
     position: relative;
     height: 20px;
-    right: 50px;
+    right: 80px;
     top: 300px;
     font-family: 'Ram Sans Expanded', sans-serif;
     background-color: rgba(45, 192, 192, 0);                                            
     font-weight:600;
-    box-shadow: 0px -6px 30px 10px rgba(98, 33, 100, 0.507);
-    width: 14%;
+    box-shadow: 0px -6px 30px 10px rgba(98, 33, 100, 0.74);
+    width: 18%;
 }
-.portfolio2__firstJob__title a{
+.portfolio2__firstJob2-title{
+    color: rgb(35, 48, 58);
+    position: relative;
+    height: 20px;
+    right: 80px;
+    top: 300px;
+    font-family: 'Ram Sans Expanded', sans-serif;
+    background-color: rgba(45, 192, 192, 0);                                            
+    font-weight:600;
+    box-shadow: 0px -6px 30px 10px rgba(172, 6, 48, 0.74);
+    width: 18%;
+}
+.portfolio2__firstJob3-title{
+    color: rgb(35, 48, 58);
+    position: relative;
+    height: 20px;
+    right: 80px;
+    top: 300px;
+    font-family: 'Ram Sans Expanded', sans-serif;
+    background-color: rgba(45, 192, 192, 0);                                            
+    font-weight:600;
+    box-shadow: 0px -6px 30px 10px rgba(83, 88, 3, 0.74);
+    width: 18%;
+}
+.portfolio2__firstJob-description{
     display: block;
     color: #000303;
     background-color: rgba(98, 33, 100, 0.123);
     position: relative;
     top: 3px;
-   
+}
+.portfolio2__firstJob2-description{
+    display: block;
+    color: #000303;
+    background-color: rgba(98, 33, 100, 0.123);
+    position: relative;
+    top: 3px;
+}
+.portfolio2__firstJob3-description{
+    display: block;
+    color: #000303;
+    background-color: rgba(98, 33, 100, 0.123);
+    position: relative;
+    top: 3px;
 }
 .portfolio2__secondJob__Secondtitle{
     color: rgb(21, 32, 41);
@@ -86,158 +134,75 @@
     font-family: 'Ram Sans Expanded', sans-serif;
     background-color: rgba(45, 192, 192, 0);                                            
     font-weight:600;
-    box-shadow: 0px 2px 4px 3px rgba(143, 31, 31, 0.507);
+    box-shadow:0px -6px 30px 10px rgba(143, 31, 31, 0.507);
 }
-
-.portfolio2__firstJob__Threetitle{
-    color: rgb(21, 32, 41);
-    position: relative;
-    height: 20px;
-    left: 50px;
-    top: 300px;
-    font-family: 'Ram Sans Expanded', sans-serif;
-    background-color: rgba(45, 192, 192, 0);                                            
-    font-weight:600;
-    box-shadow: 0px 2px 4px 3px rgba(143, 122, 31, 0.507);
-}
-.portfolio2__fistJob_firstSlide-card{
+.portfolio2__fistJob-firstSlide{
 position: relative;
 top: 60px;
 left: 80px;
  background-color: aliceblue;
- height: 350px;
- width: 350px;
+ height: 400px;
+ width: 400px;
  box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
  transform: rotate(-8deg);
 }
-.portfolio2__fistJob_firstSlide-card img{
- object-fit: fill;
- width:100%;
- height:100%;
-
-   
-    }
-.portfolio2__firstJob_secondSlide-card{
+.portfolio2__firstJob-secondSlide{
 position: relative;
 z-index: -1;
 top: 30px;
 left: 70px;
  background-color: aliceblue;
- height: 350px;
- width: 300px;
+ height: 400px;
+ width: 400px;
  box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
  transform: rotate(8deg);
 }
-
-.portfolio2__firstJob_secondSlide-card img{
-    object-fit:fill;
-    box-sizing:content-box;
-    width:100%;
-    height:100%;
-}
-
-.portfolio2__fistJob_threeSlide-card{
+.portfolio2__fistJob-threeSlide{
     position: relative;
     top: 90px;
     left: 40px;
      background-color: aliceblue;
-     height: 350px;
-     width: 300px;
+     height: 400px;
+     width: 400px;
      box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
      transform: rotate(-8deg);
     }
-    .portfolio2__fistJob_threeSlide-card img{
-  
-        object-fit: fill;
-        width: 100%;
-        height: 100%;
-       
-        }
-        .portfolio2__firstJob_fourSlide-card{
-            position: relative;
-            z-index: -1;
-            top: 50px;
-            left: 0px;
-             background-color: aliceblue;
-             height: 350px;
-             width: 300px;
-             box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
-             box-sizing: border-box;
-             transform: rotate(8deg);
-           
-            }
-            
-            .portfolio2__firstJob_fourSlide-card img{
-                object-fit: cover;
-                width:100%;
-                height:100%;
-            }
-            .portfolio2__fistJob_firstSlide-card-landing{
-            position: relative;
-            top: 70px;
-            left: 120px;
-             background-color: aliceblue;
-             height: 350px;
-             width: 300px;
-             box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
-            }
-            .portfolio2__fistJob_firstSlide-card-landing img{
-                object-fit: fill;
-                width:100%;
-                height:100%;
-                position: relative;
-                left: 0px;
-            }
-            .Separador{
-                background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
-                width: 100%;
-                height: 3px;
-                position: relative;
-                top: 80px;
-            }
-            .Separador-3{
-                background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
-                width: 100%;
-                height: 3px;
-                position: relative;
-                bottom: 450px;
-            }
-            .portfolio2__firstJob2 div{
-                transform: rotate(0deg);
-            }
-            .portfolio2__secondJob div{
-                transform: rotate(0deg);    
-            }
-            .portfolio2__secondJob div>img{
-              width: 50vh;
-              height: 30vh;
-              position: relative;
-              object-fit: cover;
-   
-         
-           
-            }
-            .portfolio2__secondJob2 div{
-                transform: rotate(0deg);    
-            }
-            .portfolio2__secondJob2 div>img{
-              width: 50vh;
-              height: 30vh;
-              position: relative;
-              object-fit: cover;
-   
-         
-           
-            }
 
+  .portfolio2__firstJob-fourSlide{
+ position: relative;
+z-index: -1;
+ top: 50px;
+left: 0px;
+  background-color: aliceblue;
+  height: 400px;
+  width: 400px; 
+  box-shadow: 0px 0px 3px 6px rgba(0, 0, 0, 0.39);
+  box-sizing: border-box;
+  transform: rotate(8deg);
+  }
             
-     
-            .portfolio2__secondJob__Secondtitle a{
-                display: block;
-                color: #000303;
-                background-color: rgba(98, 33, 100, 0.123);
-                position: relative;
-                top: 3px;
-             
-               
-            }
+
+  .Separador{
+     background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
+     width: 100%;
+     height: 3px;
+     position: relative;
+      top: 80px;
+          }
+ .Separador-3{
+    background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
+    width: 100%;
+     height: 3px;
+    position: relative;
+       bottom: 450px;
+   }
+   .Separador-4{
+    background: radial-gradient(circle at 100%, #235e70, #5f3838 50%, #eee 75%, #f7f7f7 75%);
+    width: 100%;
+     height: 3px;
+    position: relative;
+      bottom: 800px;
+   }
+       
+
+  

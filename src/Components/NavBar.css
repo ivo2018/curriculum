@@ -44,3 +44,15 @@ width: 32px;
 background-color: rgb(255, 255, 255);
 
 }
+@media (max-width:960px){
+    .NavBar__ul{
+      
+        position: relative;
+        top: 1em;
+        justify-content: space-around;
+        padding: 1em;
+        padding-left: 0em;
+        background-color: rgb(27, 27, 26);
+        overflow: hidden;
+        }
+}

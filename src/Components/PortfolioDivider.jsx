@@ -6,7 +6,7 @@ import game from "../Images/gamedeveloper.png"
 import web from "../Images/webdeveloper.png"
 
 const PortfolioDivider = () => {
-    const [select , setSelect] =useState("");
+    const [select , setSelect] =useState("web");
     function selectFunction(select){
         if(select =="web"){
             setSelect("web");

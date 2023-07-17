@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from './Components/NavBar';
 import About from './Components/About';
 import Skills from './Components/Skills';
-import Portfolio from './Components/Portfolio';
+
+import  ContactUs  from './Components/ContactUs';
 import PortfolioDivider from './Components/PortfolioDivider';
+
 import {
   BrowserRouter,
   Routes,
@@ -18,6 +20,7 @@ function App() {
       <Route path="/" element={<About />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/portfolio" element={<PortfolioDivider />} />
+      <Route path="/contactus" element={<ContactUs />} />      
     </Routes>
   </BrowserRouter>
     
