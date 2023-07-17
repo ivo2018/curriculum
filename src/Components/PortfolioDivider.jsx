@@ -22,7 +22,7 @@ const PortfolioDivider = () => {
             <button onClick={() =>  selectFunction(setSelect("web"))}><img src={web} alt=""/></button>
             <button onClick={() =>  selectFunction(setSelect("game"))}><img src={game} alt=""/></button>
             </div>
-            {select=="web" ? ( <Portfolio/>) : ( <Portfolio2/>)}
+            {select==="web" ? ( <Portfolio/>) : ( <Portfolio2/>)}
            
             
             
