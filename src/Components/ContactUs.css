@@ -129,6 +129,10 @@ form{
     }
   }
   @media (max-width:780px){
+    .form__title{
+      position: relative;
+      right: 25px;
+     }
     .form__box  {
       display:inline-block;
       position: relative;
@@ -152,6 +156,10 @@ form{
     }
   }
   @media (max-width:710px){
+    .form__title{
+      position: relative;
+      right: 25px;
+     }
     .form__box  {
       display:inline-block;
       position: relative;
@@ -172,6 +180,7 @@ form{
       width: 50%;
       position: relative;
       right: 160px; 
+       text-align: center;
     }
     input[type="submit"] {
       top:4em;
@@ -180,11 +189,15 @@ form{
     }
   }
   @media (max-width:530px){
+    .form__title{
+     position: relative;
+     right: 25px;
+    }
     .form__box  {
       display:inline-block;
       position: relative;
       left:-4em;
-      
+      text-align: center;
     }
     .form__box img {
 
@@ -206,4 +219,38 @@ form{
       left: -3em;
      
     }
+    
+  }
+  @media (max-width:428px){
+
+    .form__box  {
+      display:inline-block;
+      position: relative;
+      left:-9em;
+      text-align: center;
+    }
+
+    
+  }
+  @media (max-width:390px){
+
+    .form__box  {
+      display:inline-block;
+      position: relative;
+      left:-10em;
+      text-align: center;
+    }
+ 
+    
+  }
+  @media (max-width:360px){
+
+    .form__box  {
+      display:inline-block;
+      position: relative;
+      left:-11em;
+      text-align: center;
+    }
+ 
+    
   }
