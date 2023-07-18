@@ -192,6 +192,7 @@ form{
     .form__title{
      position: relative;
      right: 25px;
+     
     }
     .form__box  {
       display:inline-block;
