@@ -287,10 +287,7 @@ width:100%;
 
    @media (max-width:680px){
 
-            .portfolio{
-        width: 100%;
-        height: 100%;
-            }
+  
             .portfolio__fistJob_firstSlide-card,.portfolio__firstJob_secondSlide-card,.portfolio__fistJob_threeSlide-card,.portfolio__firstJob_fourSlide-card{
                 height: 25em;
           
@@ -443,7 +440,82 @@ width:100%;
                 top: 480px !important;
             }
                 }         
-  @media (max-width:380px){    
+                @media (max-width:414px){
+
+    
+        
+            .portfolio__firstJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+                left:0px;
+            }
+            .portfolio__secondJob{
+                display: inline;
+                width: 42em;
+                height: 26em;
+                top: 20em;
+            }
+            .portfolio__threeJob{
+                display: inline;
+                width: 42em;
+                top: 35em;
+            }
+            .portfolio__fistJob_firstSlide-card{
+            position: relative;
+            top: 135px;
+            left: 5px;
+      
+            }
+            .portfolio__firstJob_secondSlide-card{
+                position: relative;
+                top: 140px;
+                left: 5px;
+             }
+
+             .portfolio__fistJob_threeSlide-card{
+                position: relative;
+                top: 145px;
+                left: 5px;
+             }
+             .portfolio__firstJob_fourSlide-card{
+                position: relative;
+                top: 150px;
+                left: 5px;
+             }
+          
+           
+            .portfolio__firstJob__title{     
+                position: relative;
+                left: 50px;
+                top: -30px;
+                width: 80%;
+        
+            }
+            .portfolio__firstJob__Secondtitle{
+                    position: relative;
+                    left: 50px;
+                    top: -80px;
+                width: 80%;
+            }
+            .portfolio__firstJob__Threetitle{
+                position: relative;
+                left: 50px;
+                top: -40px;
+                width: 80%;
+            }
+            .Separador{
+               
+                position: relative;
+                top: 200px !important;
+            }
+            .Separador-2{
+               
+                position: relative;
+                top: 480px !important;
+            }
+                }         
+  @media (max-width:384px){    
     .portfolio__fistJob_firstSlide-card{
         position: relative;
         top: 150px;
