@@ -24,7 +24,7 @@ import {  useNavigate } from 'react-router-dom';
         <img src={bosque} alt="" />
     <div class="form__box-content" > 
     <form ref={form} onSubmit={sendEmail} class="field">
-    <a href="/#"class="form__title">Contact Us
+    <a href="/#"class="form__title">Contact 
       </a>
     <div class="form__box-content">
       <label>Full Name</label>
@@ -36,7 +36,7 @@ import {  useNavigate } from 'react-router-dom';
       <label>Message</label>
       <input type="text" name="message" />
       <a href="/#"class="divider">-</a>
-      <input  type="submit"value="Contact Us" />
+      <input  type="submit"value="Contact" />
       </div>
     </form>
     </div>

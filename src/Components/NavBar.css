@@ -1,5 +1,6 @@
 a{
     color:rgb(233, 224, 224);
+    text-decoration: none;
 }
 .NavBar__ul{
 display: flex;
