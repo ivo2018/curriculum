@@ -27,11 +27,11 @@ const Skills = () => {
             </div>
             </div>
             <div class="div-skills_minority">
-            <img src={Github} alt="" style={{position:"relative",bottom:"200px"}}/>
-            <img src={discord} alt="" style={{position:"relative",bottom:"50px"}}/>
-            <img src={unity} alt="" style={{position:"relative",bottom:"50px"}}/>
-            <img src={mql} alt="" style={{position:"relative",left:"180px",bottom:"200px"}}/>
-            <img src={cSharp} alt="" style={{position:"relative",right:"200px",bottom:"50px"}}/>
+            <img src={Github} alt="" style={{position:"relative",bottom:"12.5em"}}/>
+            <img src={discord} alt="" style={{position:"relative",bottom:"3em"}}/>
+            <img src={unity} alt="" style={{position:"relative",bottom:"3em"}}/>
+            <img src={mql} alt="" style={{position:"relative",left:"12.5em",bottom:"12.5em"}}/>
+            <img src={cSharp} alt="" style={{position:"relative",right:"12.5em",bottom:"3em"}}/>
 
             </div>
          

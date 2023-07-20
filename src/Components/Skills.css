@@ -90,3 +90,18 @@ width: 100px;
     position: relative;
     top: 65px;
   }
+ @media (max-width: 414px){
+ 
+    .div-skills{
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.733);
+        width: 100%;
+        margin: auto;
+        top: 20px;
+        border-radius: 8px;
+        border:2px ridge rgba(253, 255, 254, 0.336);
+    
+    }
+   
+ 
+ }
