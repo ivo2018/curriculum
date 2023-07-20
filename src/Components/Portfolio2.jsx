@@ -38,14 +38,14 @@ const Portfolio2 = () => {
                            it has a state machine (AI),
                           decision roulette and shaders</a>
                 </div>
-                         <div class="portfolio2__fistJob-firstSlide">
+                         <div class="portfolio2__firstJob-firstSlide">
                                <img src={Bandera} alt=""/>
                           </div>
         
                        <div class="portfolio2__firstJob-secondSlide">
                                  <img src={CamionQuemado} alt=""/>
                           </div>
-                         <div class="portfolio2__fistJob-threeSlide">
+                         <div class="portfolio2__firstJob-threeSlide">
                                <img src={GuardiasVolando} alt=""/>
                           </div>
         
@@ -56,13 +56,13 @@ const Portfolio2 = () => {
             </div>
       
         <div class="portfolio2__firstJob-2">
-                        <div class="portfolio2__fistJob-firstSlide" >
+                        <div class="portfolio2__firstJob-firstSlide" >
                            <img src={LanzaCohetes} alt=""/>
                            </div>
                         <div class="portfolio2__firstJob-secondSlide" >
                           <img src={Ruta} alt=""/>
                         </div>
-                       <div class="portfolio2__fistJob-threeSlide" >
+                       <div class="portfolio2__firstJob-threeSlide" >
                         <img src={LanzaCohetesShader} alt=""/>
                           </div>
                          <div class="portfolio2__firstJob-fourSlide" >
@@ -79,14 +79,14 @@ const Portfolio2 = () => {
                           the players must fight until one dies,
                              along the way they will find elements that they can use in their favor</a>
                            </div>
-                         <div class="portfolio2__fistJob-firstSlide" style={{transform:"rotate(0deg)"}} >
+                         <div class="portfolio2__firstJob-firstSlide" style={{transform:"rotate(0deg)"}} >
                                <img src={photon2D1} alt="" />
                           </div>
         
                        <div class="portfolio2__firstJob-secondSlide" style={{transform:"rotate(0deg)"}}>
                                  <img src={photon2D2} alt="" />
                           </div>
-                         <div class="portfolio2__fistJob-threeSlide" style={{transform:"rotate(0deg)"}}>
+                         <div class="portfolio2__firstJob-threeSlide" style={{transform:"rotate(0deg)"}}>
                                <img src={photon2D3} alt=""/>
                           </div>
         
@@ -96,13 +96,13 @@ const Portfolio2 = () => {
                 
             </div>
         <div class="portfolio2__firstJob-4">
-                        <div class="portfolio2__fistJob-firstSlide" >
+                        <div class="portfolio2__firstJob-firstSlide" >
                            <img src={photon2D5} alt=""  />
                            </div>
                         <div class="portfolio2__firstJob-secondSlide" >
                           <img src={photon2D6} alt=""/>
                         </div>
-                       <div class="portfolio2__fistJob-threeSlide" >
+                       <div class="portfolio2__firstJob-threeSlide" >
                         <img src={photon2D7} alt=""/>
                           </div>
                          <div class="portfolio2__firstJob-fourSlide" >
@@ -119,14 +119,14 @@ const Portfolio2 = () => {
                     the players must work as a team to win by killing all the enemies, 
                       to do so they depend on the others to be able to move to the next places on the map.</a>
            </div>
-                    <div class="portfolio2__fistJob-firstSlide" style={{transform:"rotate(0deg)"}}>
+                    <div class="portfolio2__firstJob-firstSlide" style={{transform:"rotate(0deg)"}}>
                           <img src={photon2D9} alt=""  />
                      </div>
    
                   <div class="portfolio2__firstJob-secondSlide" style={{transform:"rotate(0deg)"}}>
                             <img src={photon2D10} alt=""/>
                      </div>
-                    <div class="portfolio2__fistJob-threeSlide" style={{transform:"rotate(0deg)"}}>
+                    <div class="portfolio2__firstJob-threeSlide" style={{transform:"rotate(0deg)"}}>
                           <img src={photon2D11} alt=""/>
                      </div>
    
@@ -136,13 +136,13 @@ const Portfolio2 = () => {
            
        </div>
    <div class="portfolio2__firstJob-6">
-                   <div class="portfolio2__fistJob-firstSlide" >
+                   <div class="portfolio2__firstJob-firstSlide" >
                       <img src={photon2D13} alt=""/>
                       </div>
                    <div class="portfolio2__firstJob-secondSlide" >
                      <img src={photon2D9} alt=""/>
                    </div>
-                  <div class="portfolio2__fistJob-threeSlide" >
+                  <div class="portfolio2__firstJob-threeSlide" >
                    <img src={photon2D10} alt=""/>
                      </div>
                     <div class="portfolio2__firstJob-fourSlide" >
