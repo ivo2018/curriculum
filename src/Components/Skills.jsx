@@ -5,38 +5,31 @@ import nodejs from "../Images/nodejs.png"
 import unity from "../Images/unity.png"
 import JavaScript from  "../Images/JavaScript.png"
 import Css from "../Images/Css.png"
-import Hmtl from "../Images/Html.png"
+import Html from "../Images/Html.png"
 import Github from "../Images/github.jpeg"
 import discord from "../Images/discord.jpg"
 import cSharp from "../Images/csharp.jpg"
 import "../Components/Skills.css"
 const Skills = () => {
     return (
-        <div class="div-skills">
-             <div class="midlevel">
-            <div class="div-skills_react">
+        <div class="div"> 
+        <div class="div-skills"> 
             <img src={react} alt=""/>
-            </div>
-            <div class="div-skills_react3">
-            <img src={nodejs} alt=""/>
-            </div>
-            <div class="div-skills_react-child">
+        <div class="div-skills-reactCombo">
+            <img src={Css} alt=""/>    
             <img src={JavaScript} alt=""/>
-            <img src={Css} alt=""/> 
-            <img src={Hmtl} alt=""/>
-            </div>
-            </div>
-            <div class="div-skills_minority">
-            <img src={Github} alt="" style={{position:"relative",bottom:"12.5em"}}/>
-            <img src={discord} alt="" style={{position:"relative",bottom:"3em"}}/>
-            <img src={unity} alt="" style={{position:"relative",bottom:"3em"}}/>
-            <img src={mql} alt="" style={{position:"relative",left:"12.5em",bottom:"12.5em"}}/>
-            <img src={cSharp} alt="" style={{position:"relative",right:"12.5em",bottom:"3em"}}/>
-
-            </div>
-         
-       
+            <img src={Html} alt=""/> 
+         </div>
+            <img src={nodejs} alt=""/>
         </div>
+        <div class="div-skills-minority">
+            <img src={Github} alt="" />
+            <img src={discord} alt="" />
+            <img src={unity} alt="" />
+            <img src={mql} alt=""/>
+            <img src={cSharp} alt="" />
+        </div>
+    </div>
     );
 };
 
