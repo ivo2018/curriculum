@@ -1,17 +1,17 @@
 import React,{useEffect,useState,useRef} from 'react';
 import { useNavigate } from "react-router-dom";
-import folder from "../imgs/folder.png"
-import skills from "../imgs/skills.png"
-import about from "../imgs/about.png"
-import close from "../imgs/close-icon.png";
-import roses from "../imgs/roses.jpg";
+import folder from "../images/folder.png"
+import skills from "../images/skills.png"
+import about from "../images/about.png"
+import close from "../images/close-icon.png";
+import roses from "../images/roses.jpg";
 import "../components/About.css"
 import { closeWindow, openWindow } from '../functions/eventsFunction';
 import { FolderDecide } from '../functions/eventsFunction';
 
 import emailjs from '@emailjs/browser';
 import "../components/Contact.css"
-import world from "../imgs/Icons/world98.png";
+import world from "../images/Icons/world98.png";
 const Contact = (/*{setChange,handleClick}*/) => {
     const audioElementRef = useRef(null);
     const [write,setWrite]= useState(false);

@@ -2,17 +2,17 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 //import $ from 'jquery'; 
-import folder from "../imgs/folder.png"
-import skills from "../imgs/skills.png"
-import about from "../imgs/about.png"
-//import message from "../imgs/message.png"
+import folder from "../images/folder.png"
+import skills from "../images/skills.png"
+import about from "../images/about.png"
+//import message from "../images/message.png"
 import "../components/Work.css"
-import close from "../imgs/close-icon.png";
+import close from "../images/close-icon.png";
 import { closeWindow, openWindow } from '../functions/eventsFunction';
 import { FolderDecide } from '../functions/eventsFunction';
 import list from '../lists/listsCarouselDividerWeb';
 import list2 from '../lists/listsCarouselDividerGames';
-import world from "../imgs/Icons/world98.png";
+import world from "../images/Icons/world98.png";
 
 const Work = (/*{handleClick,setChange}*/) => {
     const navigate = useNavigate();

@@ -1,17 +1,17 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { useNavigate } from "react-router-dom";
 //import $ from 'jquery'; 
-import folder from "../imgs/folder.png"
-import skills from "../imgs/skills.png"
-import about from "../imgs/about.png"
+import folder from "../images/folder.png"
+import skills from "../images/skills.png"
+import about from "../images/about.png"
 
 
-import win98 from "../imgs/Icons/win98.png"
-//import message from "../imgs/message.png"
+import win98 from "../images/Icons/win98.png"
+//import message from "../images/message.png"
 
-//import marcador from "../imgs/marcador.png"
-import close from "../imgs/close-icon.png";
-import world from "../imgs/Icons/world98.png";
+//import marcador from "../images/marcador.png"
+import close from "../images/close-icon.png";
+import world from "../images/Icons/world98.png";
 
 //import SelectionPage from './SelectionPage';
 import "../components/About.css"

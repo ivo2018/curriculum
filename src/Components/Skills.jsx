@@ -1,45 +1,45 @@
 import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
 import { useNavigate } from "react-router-dom";
-import folder from "../imgs/folder.png"
-import skills from "../imgs/skills.png"
-import about from "../imgs/about.png"
-import close from "../imgs/close-icon.png";
-import software from "../imgs/Icons/DesarrolloDeSoftware.png";
-import juegos from "../imgs/Icons/ProgramadorDeVideojuegos.png";
+import folder from "../images/folder.png"
+import skills from "../images/skills.png"
+import about from "../images/about.png"
+import close from "../images/close-icon.png";
+import software from "../images/Icons/DesarrolloDeSoftware.png";
+import juegos from "../images/Icons/ProgramadorDeVideojuegos.png";
 
 import "../components/About.css"
 import { closeWindow, openWindow } from '../functions/eventsFunction';
 import { FolderDecide } from '../functions/eventsFunction';
-import YellowNote from "../imgs/Skills/YellowNote2.png"
-import GreenNote from "../imgs/Skills/GreenNote2.png"
-import react from "../imgs/react.png";
-import javascript from "../imgs/javascript.png";
-import csharp from "../imgs/csharp.png";
-import php from "../imgs/php.png";
-import html from "../imgs/html.png";
-import css from "../imgs/css.png";
-import unity from "../imgs/unity.png";
-import laravel from "../imgs/laravel.png";
-import mysql from "../imgs/mysql.png";
-import sql from "../imgs/sql.png";
-import node from "../imgs/node.png";
-import github from "../imgs/github.png";
-import phpmyadmin from "../imgs/phpmyadmin.png"
-import WhiteNote from "../imgs/Skills/WhiteNote2.png";
-import PinkNote from "../imgs/Skills/PinkNote2.png"
-import vtex from "../imgs/Skills/vtex.png";
-import world from "../imgs/Icons/world98.png";
-//import titulo from "../imgs/Titulo.png";
-//import titulo2 from "../imgs/Titulo2.png";
+import YellowNote from "../images/Skills/YellowNote2.png"
+import GreenNote from "../images/Skills/GreenNote2.png"
+import react from "../images/react.png";
+import javascript from "../images/javascript.png";
+import csharp from "../images/csharp.png";
+import php from "../images/php.png";
+import html from "../images/html.png";
+import css from "../images/css.png";
+import unity from "../images/unity.png";
+import laravel from "../images/laravel.png";
+import mysql from "../images/mysql.png";
+import sql from "../images/sql.png";
+import node from "../images/node.png";
+import github from "../images/github.png";
+import phpmyadmin from "../images/phpmyadmin.png"
+import WhiteNote from "../images/Skills/WhiteNote2.png";
+import PinkNote from "../images/Skills/PinkNote2.png"
+import vtex from "../images/Skills/vtex.png";
+import world from "../images/Icons/world98.png";
+//import titulo from "../images/Titulo.png";
+//import titulo2 from "../images/Titulo2.png";
 import "../components/Skills.css"
-import public_note from "../imgs/Skills/public_note.png";
-import public_note_yellow from "../imgs/Skills/public_note_yellow2.png";
-import public_note_blue from "../imgs/Skills/public_note_blue2.png";
-import public_note_pink from "../imgs/Skills/public_note_pink2.png";
-import public_note_green from "../imgs/Skills/public_note_green2.png";
-import pack_notas from "../imgs/Skills/pack_notas.png";
-import tacho_basura from "../imgs/Skills/tacho-basura.png";
+import public_note from "../images/Skills/public_note.png";
+import public_note_yellow from "../images/Skills/public_note_yellow2.png";
+import public_note_blue from "../images/Skills/public_note_blue2.png";
+import public_note_pink from "../images/Skills/public_note_pink2.png";
+import public_note_green from "../images/Skills/public_note_green2.png";
+import pack_notas from "../images/Skills/pack_notas.png";
+import tacho_basura from "../images/Skills/tacho-basura.png";
 
 const Skills = (/*{setChange,handleClick}*/) => {
     //  const [count, setCount] = useState(0);

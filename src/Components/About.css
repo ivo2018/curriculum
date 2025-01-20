@@ -112,7 +112,7 @@ left: 0 !important;
 
 .homePage__content {
 
-  /* background-image: url("../imgs/binary.jpg");*/
+  /* background-image: url("../images/binary.jpg");*/
   display: block;
   flex-wrap: wrap;
   text-align: center;
@@ -127,7 +127,7 @@ left: 0 !important;
 
 /*.homePage_content-binary {
 
-  background-image: url("../imgs/binaryDefinitive.jpg");
+  background-image: url("../images/binaryDefinitive.jpg");
   background-color: rgba(19, 235, 235, 0.836);
 
   background-size: cover;
@@ -169,7 +169,7 @@ left: 0 !important;
     }
   }
   .homePage_content-binary {
-    /*background-image: url("../imgs/binaryDefinitive.jpg");*/
+    /*background-image: url("../images/binaryDefinitive.jpg");*/
     /*background-color: rgba(19, 235, 235, 0.836);*/
     background-size: cover;
     object-position: bottom 10px right 20px;
@@ -630,33 +630,33 @@ display: inline-block;
    
     from { 
       width: 100% ;
-      background-image: url("../imgs/Icons/cloud.gif") ;
+      background-image: url("../images/Icons/cloud.gif") ;
   
     }
     25%{
       width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 100%; 
     }
     50% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 150%; 
     }
     60% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 200%; 
     }
     70% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 250%; 
     }
     80% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 330%; 
       opacity: 1;
     }
     90% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
     
       background-size:350% 350%; 
       opacity: 1;
@@ -664,18 +664,18 @@ display: inline-block;
     }
 
     90.5% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 250%; 
       
     }
 
     99% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 100%; 
       opacity: 0.8;
     }
     100% { width:100% ;
-      background-image: url("../imgs/Icons/cloud.gif");
+      background-image: url("../images/Icons/cloud.gif");
       background-size:50% 100%; 
       opacity: 0;
     }
@@ -824,7 +824,7 @@ display: inline-block;
 }
 
 .homePage_content-clickAnimation {
- /* background-image: url("../imgs/binaryDefinitive.jpg");*/
+ /* background-image: url("../images/binaryDefinitive.jpg");*/
   background-color: rgba(19, 235, 235, 0.836);
   background-size: cover;
   object-position: bottom 10px right 20px;
